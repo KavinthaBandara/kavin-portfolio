@@ -28,7 +28,7 @@ export default function Contact() {
             </p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
                 Email 2
             </h2>
@@ -40,7 +40,9 @@ export default function Contact() {
 
         <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Phone</h2>
-            <p className="text-gray-600 dark:text-gray-300">+94 76 451 8970</p>
+            <p className="text-gray-600 dark:text-gray-300">
+                +94 76 451 8970
+            </p>
         </div>
 
   
