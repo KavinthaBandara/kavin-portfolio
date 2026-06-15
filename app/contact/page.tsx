@@ -10,14 +10,16 @@ export default function Contact() {
     
 
     <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Contact Me</h1>
-        <p className="text-black-400">Get in touch with me!</p>
+        <h1 className="text-4xl font-bold mb-4" dark:text-gray-100 mb-2>Contact Me</h1>
+        <p className="text-black-400" dark:text-gray-300>
+            Get in touch with me!
+        </p>
     </div>
 
 
     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl">
 
-        <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <h2 className="text-xl font-semibold mb-2">Email 1</h2>
             <p className="text-black-500">kavinthahasaranga2@gmail.com</p>
         </div>
