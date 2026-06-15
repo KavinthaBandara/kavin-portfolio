@@ -6,7 +6,7 @@ export default function Contact() {
 
         <>
         <div>
-           <div className="bg-white min-h-screen text-black flex flex-col items-center justify-center p-4 space-y-8 font-sans">
+           <div className="text-black min-h-screen text-black flex flex-col items-center justify-center p-4 space-y-8 font-sans">
     
 
     <div className="text-center">
