@@ -11,7 +11,7 @@ export default function Contact() {
 
     <div className="text-center">
         <h1 className="text-4xl font-bold mb-4 dark:text-gray-100 mb-2">Contact Me</h1>
-        <p className="text-black-400" dark:text-gray-300>
+        <p className="text-black-400 dark:text-gray-300">
             Get in touch with me!
         </p>
     </div>
