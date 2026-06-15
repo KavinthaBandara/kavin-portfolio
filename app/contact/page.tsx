@@ -19,9 +19,13 @@ export default function Contact() {
 
     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl">
 
-        <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
-            <h2 className="text-xl font-semibold mb-2">Email 1</h2>
-            <p className="text-black-500">kavinthahasaranga2@gmail.com</p>
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                Email 1
+            </h2>
+            <p className="text-gray-600 dark:text-gray-300">
+                kavinthahasaranga2@gmail.com
+            </p>
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
